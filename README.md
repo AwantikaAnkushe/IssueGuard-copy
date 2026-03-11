@@ -6,3 +6,5 @@ First, the system uses regex (pattern matching) to find possible secret-like tex
 If a real secret is detected, the extension highlights it and alerts the user, so they can remove it before submitting the issue. This helps developers avoid exposing confidential information publicly on GitHub.
 
 In simple terms, IssueGuard protects developers by detecting and warning them about sensitive data before it gets leaked in issue reports.
+
+<img width="1920" height="1080" alt="IssueGuard" src="https://github.com/user-attachments/assets/449722b5-4aac-4ffb-9488-fc78bde9a32e" />
