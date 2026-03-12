@@ -127,7 +127,7 @@ async def test_concurrent_requests(
             GITHUB_TOKEN=ghp_1234567890abcdefghijklmnopqrstuvwxyz
             """,
             """
-            STRIPE_KEY=sk_live_51H1234567890abcdefghijklmnop
+            STRIPE_KEY=test_stripe_key_example
             MONGODB_URI=mongodb://admin:SecretP@ss123@localhost:27017/db
             """,
             """
