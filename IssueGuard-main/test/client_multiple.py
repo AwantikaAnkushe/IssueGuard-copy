@@ -119,26 +119,24 @@ async def test_concurrent_requests(
     if sample_texts is None:
         sample_texts = [
             """
-            API_KEY=sk-1234567890abcdef1234567890abcdef
-            DATABASE_URL=postgresql://user:MyP@ssw0rd123@localhost:5432/mydb
-            """,
-            """
-            AWS_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-            GITHUB_TOKEN=ghp_1234567890abcdefghijklmnopqrstuvwxyz
-            """,
-            """
-            STRIPE_KEY=test_stripe_key_example
-            MONGODB_URI=mongodb://admin:SecretP@ss123@localhost:27017/db
-            """,
-            """
-            SLACK_WEBHOOK=https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXX
-            JWT_SECRET=my-super-secret-jwt-key-123456789
-            """,
-            """
-            PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----
-            MIIEpAIBAAKCAQEA1234567890abcdefghijk
-            -----END RSA PRIVATE KEY-----
-            """
+    TEST_API_KEY=example_key_value
+    TEST_DATABASE_URL=database_connection_example
+    """,
+    """
+    TEST_AWS_KEY=aws_key_example
+    TEST_GITHUB_TOKEN=github_token_example
+    """,
+    """
+    TEST_STRIPE_KEY=stripe_key_example
+    TEST_MONGODB_URI=mongodb_uri_example
+    """,
+    """
+    TEST_SLACK_WEBHOOK=slack_webhook_example
+    TEST_JWT_SECRET=jwt_secret_example
+    """,
+    """
+    TEST_PRIVATE_KEY=example_private_key_block
+    """
         ]
     
     print_header(f"Testing {num_clients} Concurrent Clients")
