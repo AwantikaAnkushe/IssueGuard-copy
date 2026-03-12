@@ -154,7 +154,7 @@ def run_tests(client: SecretDetectionClient):
     AWS_SECRET_KEY=AKIA_TEST_KEY_1234567890
     GITHUB_TOKEN=ghp_testtoken1234567890abcdef
     STRIPE_SECRET_KEY=sk_live_test_123456789abcdef
-J   WT_SECRET=super_secret_jwt_key_12345
+    JWT_SECRET=super_secret_jwt_key_12345
     
     Contact: john.doe@example.com
     GitHub: github.com/johndoe
